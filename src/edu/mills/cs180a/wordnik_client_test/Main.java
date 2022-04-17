@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Synonyms of '" + randomWord + "' are: " + synonyms);
 
         // get frequency of synonyms that are single words only (no phrases)
-        System.out.println("Scrabble score: ");
+        System.out.println("Frequencies: ");
         for (String s : synonyms) {
             if (!s.contains(" ")) {
                 System.out.println(s + ": " + wordApi.getWordFrequency(s, "false", 2020, 2021));
