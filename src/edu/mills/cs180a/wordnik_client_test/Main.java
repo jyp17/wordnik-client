@@ -45,7 +45,7 @@ public class Main {
         System.out.println("Frequencies: ");
         for (String s : synonyms) {
             if (!s.contains(" ")) {
-                System.out.println(s + ": " + wordApi.getWordFrequency(s, "false", 2020, 2021));
+                System.out.println(s + ": " + wordApi.getWordFrequency(s, "false", 2010, 2012));
             }
         }
     }
